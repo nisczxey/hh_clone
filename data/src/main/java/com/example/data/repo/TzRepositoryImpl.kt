@@ -1,10 +1,10 @@
 package com.example.data.repo
 
-import com.example.data.remote.api.TzApi
+import com.example.data.remote.service.TzNetworkService
 import com.example.domain.repository.TzRepository
 
 class TzRepositoryImpl(
-    val api : TzApi
+    val service: TzNetworkService
 ) : TzRepository {
 
 
